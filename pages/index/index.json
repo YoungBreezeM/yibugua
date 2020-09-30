@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "default",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#171e22",
+  "navigationBarTitleText": "不卦",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+  
+  }
+}

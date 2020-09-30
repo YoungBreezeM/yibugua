@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/community/index",
+    "pages/info/index"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#999999",
+    "selectedColor": "#FF713D",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/community/index",
+        "text": "left",
+        "iconPath": "/custom-tab-bar/icon/icon_home.png",
+        "selectedIconPath": "/custom-tab-bar/icon/icon_home_HL.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/custom-tab-bar/icon/icon_home.png", 
+        "selectedIconPath": "/custom-tab-bar/icon/icon_home_HL.png", 
+        "text": "middle"
+      },
+      {
+        "pagePath": "pages/info/index",
+        "text": "right",
+        "iconPath": "/custom-tab-bar/icon/icon_mine.png",
+        "selectedIconPath": "/custom-tab-bar/icon/icon_mine_HL.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
